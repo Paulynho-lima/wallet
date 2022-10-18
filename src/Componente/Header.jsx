@@ -1,6 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import './header.css';
 
 class Header extends React.Component {
@@ -27,6 +29,9 @@ class Header extends React.Component {
         <div className="moedaTotal">
           <h5 data-testid="total-field">{`Despesa Total: R$ ${cont.toFixed(2)}`}</h5>
           <h5 data-testid="header-currency-field">BRL</h5>
+        </div>
+        <div>
+          <Link to="/" className="linklog">Sair</Link>
         </div>
 
       </header>
