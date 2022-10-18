@@ -1,15 +1,17 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import { Link } from 'react-router-dom';
-import { setUseremail as setUseremailAction } from '../actions';
+/* eslint-disable react/jsx-curly-spacing */
+/* eslint-disable quotes */
+import React from "react";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
+import { Link } from "react-router-dom";
+import { setUseremail as setUseremailAction } from "../actions";
 
 class Login extends React.Component {
   constructor() {
     super();
     this.state = {
-      email: '',
-      password: '',
+      email: "",
+      password: "",
       disablEmail: false,
       disabPassword: false,
     };
@@ -25,7 +27,6 @@ class Login extends React.Component {
     this.setState({
       email: event.target.value,
       disablEmail,
-
     });
   }
 
@@ -49,8 +50,8 @@ class Login extends React.Component {
     const { email, password, disabPassword, disablEmail } = this.state;
 
     return (
-      <div>
-        <h1>Fazer o Login</h1>
+      <main className="mainLogin">
+        <h1>Fazer o Login Trybe-Wallet</h1>
         <form className=".forms">
           <fieldset className="fieldset">
             <label htmlFor="email">
@@ -60,8 +61,8 @@ class Login extends React.Component {
                 data-testid="email-input"
                 name="email"
                 id="email"
-                value={ email }
-                onChange={ this.handlerChengeEmail }
+                value={email}
+                onChange={this.handlerChengeEmail}
               />
             </label>
             <label htmlFor="senha">
@@ -72,23 +73,22 @@ class Login extends React.Component {
                 name="password"
                 id="senha"
                 minLength="6"
-                value={ password }
-                onChange={ this.handlerChengePassword }
+                value={password}
+                onChange={this.handlerChengePassword}
               />
             </label>
             <Link to="/carteira">
               <button
                 type="submit"
-                onClick={ this.submitEmail }
-                disabled={ (!disabPassword || !disablEmail) }
+                onClick={this.submitEmail}
+                disabled={!disabPassword || !disablEmail}
               >
                 Entrar
               </button>
             </Link>
           </fieldset>
-
         </form>
-      </div>
+      </main>
     );
   }
 }
