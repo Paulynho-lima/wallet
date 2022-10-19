@@ -1,0 +1,14 @@
+.h5email {
+  display: flex;
+}
+
+.h5email h4 {
+  margin-top: 0%;
+  margin-left: 20px;
+}
+
+.linklog {
+  color: aliceblue;
+  font-size: 25px;
+  margin-left: 100%;
+}
