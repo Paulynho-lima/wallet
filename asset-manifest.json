@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/trybe-wallet/static/css/main.c3de6588.chunk.css",
-    "main.js": "/trybe-wallet/static/js/main.a4410317.chunk.js",
-    "main.js.map": "/trybe-wallet/static/js/main.a4410317.chunk.js.map",
-    "runtime-main.js": "/trybe-wallet/static/js/runtime-main.2509f5c2.js",
-    "runtime-main.js.map": "/trybe-wallet/static/js/runtime-main.2509f5c2.js.map",
-    "static/js/2.1596980d.chunk.js": "/trybe-wallet/static/js/2.1596980d.chunk.js",
-    "static/js/2.1596980d.chunk.js.map": "/trybe-wallet/static/js/2.1596980d.chunk.js.map",
-    "index.html": "/trybe-wallet/index.html",
-    "precache-manifest.2bdf0b77641ad2ae24246e35197c6eff.js": "/trybe-wallet/precache-manifest.2bdf0b77641ad2ae24246e35197c6eff.js",
-    "service-worker.js": "/trybe-wallet/service-worker.js",
-    "static/css/main.c3de6588.chunk.css.map": "/trybe-wallet/static/css/main.c3de6588.chunk.css.map",
-    "static/js/2.1596980d.chunk.js.LICENSE.txt": "/trybe-wallet/static/js/2.1596980d.chunk.js.LICENSE.txt",
-    "static/js/main.a4410317.chunk.js.LICENSE.txt": "/trybe-wallet/static/js/main.a4410317.chunk.js.LICENSE.txt"
+    "main.css": "/wallet/static/css/main.c3de6588.chunk.css",
+    "main.js": "/wallet/static/js/main.821451a2.chunk.js",
+    "main.js.map": "/wallet/static/js/main.821451a2.chunk.js.map",
+    "runtime-main.js": "/wallet/static/js/runtime-main.52683a47.js",
+    "runtime-main.js.map": "/wallet/static/js/runtime-main.52683a47.js.map",
+    "static/js/2.1596980d.chunk.js": "/wallet/static/js/2.1596980d.chunk.js",
+    "static/js/2.1596980d.chunk.js.map": "/wallet/static/js/2.1596980d.chunk.js.map",
+    "index.html": "/wallet/index.html",
+    "precache-manifest.e62f40edafbcf909911c875d7f43e7b6.js": "/wallet/precache-manifest.e62f40edafbcf909911c875d7f43e7b6.js",
+    "service-worker.js": "/wallet/service-worker.js",
+    "static/css/main.c3de6588.chunk.css.map": "/wallet/static/css/main.c3de6588.chunk.css.map",
+    "static/js/2.1596980d.chunk.js.LICENSE.txt": "/wallet/static/js/2.1596980d.chunk.js.LICENSE.txt",
+    "static/js/main.821451a2.chunk.js.LICENSE.txt": "/wallet/static/js/main.821451a2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2509f5c2.js",
+    "static/js/runtime-main.52683a47.js",
     "static/js/2.1596980d.chunk.js",
     "static/css/main.c3de6588.chunk.css",
-    "static/js/main.a4410317.chunk.js"
+    "static/js/main.821451a2.chunk.js"
   ]
 }
