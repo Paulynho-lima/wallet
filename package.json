@@ -1,7 +1,7 @@
 {
   "name": "sd-0x-project-trybewallet",
   "version": "0.1.0",
-  "homepage": "https://paulynho-lima.github.io/trybe-wallet/",
+  "homepage": "https://Paulynho-lima.github.io/trybe-wallet/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "4.2.4",
