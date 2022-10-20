@@ -1,7 +1,7 @@
 {
   "name": "sd-0x-project-trybewallet",
   "version": "0.1.0",
-
+  "homepage": "trybe-wallet/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "4.2.4",
@@ -17,8 +17,8 @@
     "redux": "4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "2.3.0",
-    "stylelint-order": "4.1.0",
-    "homepage": "trybe-wallet/"
+    "stylelint-order": "4.1.0"
+    
   },
   "scripts": {
     "start": "react-scripts start",
